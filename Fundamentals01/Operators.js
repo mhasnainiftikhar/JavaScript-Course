@@ -49,3 +49,17 @@ console.log(num3 > num1);     // true
 console.log(num1 < num3);     // true
 console.log(num1 >= 8);       // true
 console.log(num3 <= 15);      // true
+
+
+//---------------precedence of operators------------
+
+let marks = 40;
+
+// arithmetic + assignment 
+marks += 10 * 2;   // 10 * 2 runs first -> 20, then marks = 40 + 20
+
+// comparison
+let isPassed = marks >= 60;
+
+console.log("Final Marks:", marks);
+console.log("Passed:", isPassed);
