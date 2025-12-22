@@ -27,3 +27,15 @@ if (marks >= 90) {
         console.log("Grade C");
     }
 }
+
+//Ternary Operator
+// It checks a condition and returns one of two values.
+
+//condition ? valueIfTrue : valueIfFalse;
+
+let ageT = 20;
+
+let result = ageT >= 18 ? "Adult" : "Minor";
+
+console.log(result);
+
