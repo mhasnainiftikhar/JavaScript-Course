@@ -30,4 +30,13 @@ const sayHello = function () {
   console.log("Hello!");
 };
 
+//Arrow Function  ()=>{}
+const calcAge = (birthYear) => {
+  const age = 2025 - birthYear;
+  return age;
+};
+
+console.log(calcAge(1998));
+
+
 
