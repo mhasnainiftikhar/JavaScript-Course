@@ -39,4 +39,15 @@ const calcAge = (birthYear) => {
 console.log(calcAge(1998));
 
 
+//Function Calling Other Function
+function add(a, b) {
+  return a + b;
+}
+
+function calculateSum() {
+  let result = add(5, 3); // calling another function
+  console.log("Sum is:", result);
+}
+
+calculateSum();
 
