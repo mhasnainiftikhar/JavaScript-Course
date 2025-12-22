@@ -11,3 +11,23 @@ function juiceMachine(apple,orange){
 }
 const readyJuice=juiceMachine(5,0);
 console.log(readyJuice)
+
+
+
+//------------------Declaration and Expression----------
+//Declaration -> function that is defined with a name and can be used before it is written in the code.
+
+sayHi();
+
+function sayHi() {
+  console.log("Hi!!!! I am Hasnain");
+}
+
+//Expression -> a function stored in a variable and cannot be used before it is defined.
+sayHello(); // Error
+
+const sayHello = function () {
+  console.log("Hello!");
+};
+
+
