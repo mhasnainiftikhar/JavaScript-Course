@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stylish Multiple Modals</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Stylish Modal Window Project</h1>
+
+  <div class="buttons">
+    <button class="btn show-modal" data-modal="modal1">Open Modal 1</button>
+    <button class="btn show-modal" data-modal="modal2">Open Modal 2</button>
+    <button class="btn show-modal" data-modal="modal3">Open Modal 3</button>
+  </div>
+
+  <!-- Modals -->
+  <div class="modal modal1 hidden">
+    <button class="close-modal">&times;</button>
+    <h2>Modal 1</h2>
+    <p>This is the content of Modal 1.</p>
+  </div>
+
+  <div class="modal modal2 hidden">
+    <button class="close-modal">&times;</button>
+    <h2>Modal 2</h2>
+    <p>This is the content of Modal 2.</p>
+  </div>
+
+  <div class="modal modal3 hidden">
+    <button class="close-modal">&times;</button>
+    <h2>Modal 3</h2>
+    <p>This is the content of Modal 3.</p>
+  </div>
+
+  <!-- Overlay -->
+  <div class="overlay hidden"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
