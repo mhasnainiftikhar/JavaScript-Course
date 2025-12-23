@@ -14,3 +14,14 @@ for (let i = 1; i <= 5; i++) {
   if (i === 3) continue;
   console.log(i);
 }
+
+// forward and backward looping on arrays in JavaScript
+const names = ["Ali", "Ahmed", "Sara", "Usman"];
+
+for (let i = 0; i < names.length; i++) {
+  console.log(names[i]);
+}
+
+for (let i=names.length-1; i>=0; i--){
+    console.log(names[i]);
+}
