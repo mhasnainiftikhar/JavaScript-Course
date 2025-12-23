@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.player {
+  display: inline-block;
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  background: #fff;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+.player--active {
+  border-color: #4caf50;
+  box-shadow: 0 0 10px #4caf50;
+}
+
+.dice {
+  width: 100px;
+  margin: 20px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background: #4caf50;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #45a049;
+}
+
